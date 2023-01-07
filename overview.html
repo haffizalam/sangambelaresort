@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <title>Sangam  Bela |</title>
+   	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+     
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="img/sb.jpg">
+   <!-- font cursive-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="icon" href='img/logo.png'>
+
+    <style type="text/css">
+      body{
+        margin: 0px;
+        padding: 0px;
+      }
+    	.logo{
+    		width:200px;
+    		height:100px;
+    		filter: brightness(1);
+        border-radius: 20px;
+    	}
+    	.nav-link
+    	{   
+    		font-size: 18px;
+    		transition: 0.3s;
+    	}
+    	.nav-link:hover
+    	{
+    		border:1px solid #E74C3C;
+    		padding:4px;
+      
+        
+    		border-radius:4px;
+    	}
+    	.dropdown-item
+    	{
+    		transition: 0.3s;
+    	}
+    	.dropdown-item:hover
+    	{
+    		padding: 8px;
+    		color: ;
+    	}
+    	.nav-transparent
+    	{
+    		background-color:crimson;
+
+    	}
+    	.nav-transparent a
+    	{
+    		font-size: 12px;
+    		color: black;
+
+    	}
+
+    	.nav-transparent a:hover
+    	{
+    		text-decoration: none;
+    	}
+      input[type=date]
+      {
+        border:1px solid black;
+      }
+    	
+    
+
+    
+     .d-block
+     {
+      transition: 0.7s;
+      padding: 5px;
+     }
+     .d-block:hover
+     {
+      box-shadow: 4px 4px 2px 0px black;
+        padding: 4px;
+     }
+
+     h1{
+       font-family: 'Italianno', ;
+            font-weight:90;
+            font-size: 58px;
+            padding: 5px;
+            border-bottom: 1px solid crimson;
+            text-transform: uppercase;
+            color: crimson;
+      
+     }
+     h4{
+      border-bottom: 1px solid crimson;
+     }
+    
+     .aboutimg
+     {
+      box-shadow: 4px 4px 2px 0px black;
+     }
+     .icon
+     {
+      width: 50px;
+      height: 50px;
+      border:1px solid black;
+      padding:8px;
+      transition-duration: 0.6s;
+     }
+     .icon:hover
+     {
+      padding:0px;
+     }
+     .book
+     {
+      transition: 0.3s;
+     }
+     .book:hover
+     {
+      padding: 8px;
+     }
+
+     .gallery-list
+     {
+      color:white;
+      background-color:black;
+      padding: 5px;
+      transition: 0.6s;
+     }
+     .gallery-list:hover
+     {
+      text-decoration: none;
+      color:black;
+      background-color: white;
+     }
+
+
+      .footer ul li
+      {
+        
+        list-style: none;
+        color:#D0D3D4;
+      }
+       .footer ul h5
+       {
+        color:white;
+        padding: 3px;
+       }
+      .f-footer
+      {
+        background-color:#1C2833;
+      }
+      .address-section
+      {
+        border-left: 1px solid crimson;
+      }
+      .card
+      {
+        transition: .5s;
+      }
+      .card:hover
+      {
+        padding:10px;
+      }
+
+
+      .sec2{
+      display: flex;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      
+     
+
+    }
+
+
+    .bg{
+      background-image:linear-gradient(rgba(236, 112, 99),rgba(0,0,0,0.7)),url('img/image (7).jpeg');
+      width:100%;
+      height: 100vh;
+    }
+
+    .bg2{
+      background-image:linear-gradient(rgba(28, 40, 51),rgba(0,0,0,0.7)),url('img/image (7).jpeg');
+      width:100%;
+      height: 50vh;
+      min-height: 30vh;
+    }
+/*overview page */
+
+    h3,ul li
+    {
+      color: #7B241C;
+     }
+
+
+    </style>
+    
+
+
+</head>
+<body>
+<section class="Header">
+	<!-- Just an image -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-dark shadow rounded-bottom nav-transparent" style="">
+  <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarSupportedContent">
+   
+  
+  
+  		<div class="flyer">
+  			<a href="" class="flyer" style="color: white;"><i class="fa fa-map-marker" aria-hidden="true"></i>
+            Bijuri, Dist-Anuppur 484440 (M.P) India</a>
+  			<a href="" class="flyer" style="color: white;"><i class="fa fa-mobile" aria-hidden="true"></i>   9424783555 | 7692865396 | 8770916846 </a>
+  		</div>
+  		<div>
+  			<a href="" style="color: white;">Offers</a>
+  			|
+  			<a href="" style="color: white;">Events</a>
+  		</div>
+  	
+ </div>
+</nav>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
+  <a class="navbar-brand" href="index.html"><img src="img/sb.jpg" class="logo  border-rounded"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav p-3">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="B&m.html">Banquets & Meeting</a>
+      </li>
+       
+       
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Accomodation
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">OverView</a>
+          <a class="dropdown-item" href="#">Portfolio</a>
+          <a class="dropdown-item" href="#">Vip</a>
+        </div>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+     
+    </ul>
+  </div>
+</nav>
+
+<section class="sec2 bg2">
+  <div class="container">
+    <div class="row">
+     <div class="col-md-2"></div>
+     <div class="col-md-8 d-flex justify-content-center">
+       
+       <p style="filter: brightness(3);color: white;font-size: 40px;">Overview</p>
+     </div>
+     <div class="col-md-2"></div>
+   </div>
+  </div>
+  <h5></h5>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row m-4">
+      <div class="col-md-12">
+        <p>At Sangam Bela Resort , we offer variety of services and stay service is one of them, we have all kind of rooms, from Deluxe classic to Deluxe Premium for stay.Our rooms are ready with all kind of art furnishings, fittings, and amenities,  our Resort is designed to provide you with all kind of luxury and relaxation.</p>
+      <p>Along with Luxury rooms we have a Party lawn where you can make your events wonderful and memorable,for the corporate event and other professional event we have confrence hall, for the catering services we have modern kitchen fully loaded with all gadgets and appliances. </p>
+      </div>
+      
+      
+    </div>
+    <div class="row shadow ">
+      <div class="col-md-6">
+        <h3>Venues</h3>
+        <ul>
+          <li>Luxury Rooms</li>
+          <li>Party Lawn</li>
+          <li>Banquet Hall</li>
+          <li>Confrence Hall</li>
+          <li>Kitchen for catering</li>
+          <li>Parking Space</li>
+        </ul>
+      </div>
+      <div class="col-md-6"> 
+        <h3>Event Offer by us</h3>
+        <ul>
+          <li>Destination Wedding</li>
+          <li>Engagement</li>
+          <li>Corporate Event</li>
+          <li>Anniversary</li>
+          <li>Birthday Party</li>
+          <li>And All kind of Event</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="f-footer mt-2 shadow">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 footer">
+        <ul>
+          <li><img src="img/sb.jpg" class="logo shadow mt-5"></li>
+          <li>Palace & Resort</li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 footer">
+        <ul class="mt-5">
+          <h5>Sangam Bela Banquet Hall and resort</h5>
+          <li>Near By Jaiswal Petrol Pump</li>
+          <li>Manendragarch Road, Bijuri</li>
+          <li>Dist. Anuppur (M.P)</li>
+          <li></li>
+        </ul>
+      </div>
+
+       <div class="col-md-3 footer">
+        <ul class="mt-5">
+          <h5>Home</h5>
+          <li>Overview</li>
+          <li>Accomodation</li>
+          <li>Restaurant</li>
+          <li>Banquets & Meeting</li>
+        </ul>
+      </div>
+
+       <div class="col-md-3 footer">
+        <ul class="mt-5">
+         
+          <li>Feel free to send us your querry</li>
+          <li class="d-flex"><input type="text" name="" class="form-control"> <a href="" class="btn "style="background-color: crimson;color: white;">Submit</a></li>
+          <li>
+            <div class="footer d-flex mt-2">
+               <i class="fa fa-facebook ml-2" aria-hidden="true"></i>
+              <i class="fa fa-instagram ml-2" aria-hidden="true"></i>
+              <i class="fa fa-twitter ml-2" aria-hidden="true"></i>
+              <i class="fa fa-pinterest ml-2" aria-hidden="true"></i>
+              <i class="fa fa-linkedin ml-2" aria-hidden="true"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+<div class="container-fluid" style="background-color: black;">
+  <p class="text-white text-center p-3" style="font-size:14px;">&#169; Sangam Bela Banquet Hall and resort & Resort All Right Reserved</p>
+</div>
+</body>
+</html>
